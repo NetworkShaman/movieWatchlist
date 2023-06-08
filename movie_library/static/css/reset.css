@@ -1,0 +1,63 @@
+/*
+  1. Použiva intuitivnější model velikosti krabice.
+*/
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+/*
+  2. Odebira výchozí okraj
+*/
+* {
+  margin: 0;
+  padding: 0;
+}
+/*
+  3. Povolit v aplikaci výšky založené na procentech
+*/
+html,
+body {
+  height: 100%;
+}
+/*
+  Typografické vylepšení
+  4. Přidat přístupný řádek-výška
+  5. Zlepšit vykreslování textu
+*/
+body {
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+}
+/*
+  6. Zlepšit výchozí nastavení médií
+*/
+img,
+picture,
+video,
+canvas,
+svg {
+  display: block;
+  max-width: 100%;
+}
+/*
+  7. Odstraňi vestavěné styly typografie formulářů
+*/
+input,
+button,
+textarea,
+select {
+  font: inherit;
+}
+/*
+  8. Vyhýbá se přetečení textu
+*/
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  overflow-wrap: break-word;
+}
