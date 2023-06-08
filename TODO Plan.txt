@@ -1,0 +1,26 @@
+Používám tyto knihovny:
+flask - Framework pro vytváření webových aplikací v programovacím jazyce Python
+gunicorn - Server pro spouštění webových aplikací napsaných v Pythonu. Jeho hlavním úkolem je podpora neustálého provozu webových aplikací
+python-dotenv - Je to malý balíček, který čte páry klíč-hodnota ze souboru .env a načte proměnné prostředí, které vaše aplikace potřebuje
+flask-wtf - WTForms je knihovna Pythonu pro práci s formuláři a poli formulářů. Poskytuje flexibilní platformu pro zpracování ověřování a vykreslování formulářů v HTML
+pymongo - Ovladač pro připojení databáze MongoDB
+flask-security - Flask-Security je rozšíření, které rychle a snadno přidává základní funkce zabezpečení a ověřování do vašich aplikací Flask.
+email_validator - Rozšíření pro kontrolu správnosti vyplnění e-mailového pole
+passlib - Je to Knihovna hashování hesel
+
+
+
+In routes:
+Blueprints - je důležitá součást Flask, která umožňuje uspořádat kód aplikace do modulů.
+Každý modul může obsahovat svůj vlastní router, šablony, statické soubory a další zdroje.
+
+
+
+Dále plánuji přidat:
+Přidání navigačního panelu
+Přidání zápatí (footer)
+Přepínání tmavého režimu (zlepšení uživatelské zkušenosti)
+Nastavení hodnocení filmů
+Úpravy filmů a předběžné vyplnění formuláře
+Přidávání registrací a přihlašovaní uživatelů
+Nasazení projektu do Heroku
